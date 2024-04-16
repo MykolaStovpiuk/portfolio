@@ -191,17 +191,20 @@ li {
 
 .footer-div {
   display: flex;
-  padding-top: 200px;
+  flex-wrap: wrap;
+  padding-top: 50px;
   padding-bottom: 50px;
+  justify-content: center;
+  row-gap: 25px;
 }
 
 .adress-bottom {
-  margin-left: 800px;
+  margin-left: 20px;
   padding-top: 15px;
 }
 
 .my-logo-bottom {
-  padding-left: 55px;
+  padding-left: 25px;
 }
 
 .social-media-link {
