@@ -1,3 +1,7 @@
+body {
+  background-color: #040116;
+}
+
 p,
 h1,
 h2,
@@ -5,111 +9,257 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 a {
-        text-decoration: none;
-            color: white
+  text-decoration: none;
+  color: white;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .page-bg {
-    width: 100%;
-    height: 100%;
-    background-color: #040116;
+  width: 100%;
+  height: 100%;
+  background-color: #040116;
 }
 
-.header-div {
-    display: flex;
-  justify-content: space-around;
-}
 .my-logo {
-display: flex;
-  padding-left: 55px;
+  margin-left: 200px;
+}
+.header-div {
+  display: flex;
 }
 
 .my-svg {
-    fill: white;
+  fill: white;
 }
 
 .adress-list {
-    display: flex;
-    gap: 24px;
-    padding-top: 70px;
-    color: #2e2f42;
+  display: flex;
+  gap: 24px;
+  padding-top: 70px;
+  color: #2e2f42;
 }
 
 .adress-div {
-    margin-left: 0;
+  margin-left: 600px;
 }
 .about-me {
-    width: 300px;
-    height: auto;
-    padding-left: 200px;
-    padding-top: 100px;
+  width: 300px;
+  height: auto;
+  padding-left: 200px;
+  padding-top: 120px;
 }
 
 .about-me-main {
-font-family: "Rosarivo", cursive;
-    font-weight: 600;
-    font-style: normal;
-    color: white;
+  font-family: "Rosarivo", cursive;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
 }
 
 .about-me-heading {
-font-family: "Rosarivo", cursive;
-    font-weight: 600;
-    font-style: normal;
-    color: white;
+  font-family: "Rosarivo", cursive;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
 }
 
 .about-me-other {
-font-family: "Marko One", serif;
-        font-weight: 700;
-background: -webkit-linear-gradient(blue, darkblue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-family: "Marko One", serif;
+  font-weight: 700;
+  background: -webkit-linear-gradient(blue, darkblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .my-image {
-    border: 5px solid black;
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .hero-section {
-    display: flex;
+  padding-top: 80px;
+  display: flex;
 }
 
 .my-photo {
-    margin-left: 280px;
+  margin-left: 280px;
 }
 
 .my-tech {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .tech-sect-heading {
-    color: whitesmoke;
-    text-align: center;
-
+  padding-top: 150px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Sedan", serif;
 }
 
 .tech-paragraph {
-    color: antiquewhite;
-        text-align: center;
-        margin-top: 25px;
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Sedan", serif;
+  font-size: 20px;
+}
+
+.hard-skils-section {
+  max-width: 750px;
 }
 
 .hard-skils {
-    display: flex;
+  padding-top: 100px;
+  max-width: 1100px;
+  padding-left: 200px;
+  display: flex;
+  gap: 80px 320px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hard-skils-section {
+  width: 75px;
+  height: 75px;
+}
+
+.projects-heading {
+  text-align: center;
+  padding-top: 150px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Sedan", serif;
+}
+
+.text-projects {
+  text-align: center;
+  padding-top: 30px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Sedan", serif;
+}
+
+.my-projects-list {
+  padding-top: 100px;
+  padding-left: 350px;
+  display: flex;
+  gap: 50px;
+}
+
+.projects-names {
+  color: black;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.first-project {
+  width: 350px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-right: 15px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.projects-link {
+  color: black;
+  font-family: "Rosarivo", cursive;
+}
+
+.projects-names {
+  font-family: "Rosarivo", cursive;
+}
+
+.first-image {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.second-image {
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-bottom: 55px;
+}
+
+.bottom-adress {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-div {
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.adress-bottom {
+  margin-left: 800px;
+  padding-top: 15px;
+}
+
+.my-logo-bottom {
+  padding-left: 55px;
+}
+
+.social-media-link {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-anchor {
+  width: 100%;
+  height: 100%;
+  background-color: #260952;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-member-social {
+  display: flex;
+  gap: 24px;
+  margin-left: 25px;
+}
+
+.social-media-svg {
+  fill: #f4f4fd;
+}
+
+.social-media-anchor:hover {
+  background-color: navy;
+}
+
+.top-adress-change {
+  font-family: "Rosarivo", cursive;
+}
+
+.top-adress-change:hover {
+  color: orangered;
+}
+
+.projects-link:hover {
+  color: darkblue;
+  font-weight: 700;
+}
+
+.bottom-adress-change:hover {
+  color: orangered;
 }
