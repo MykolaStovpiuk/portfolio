@@ -39,12 +39,13 @@ li {
 }
 
 .adress-list {
+  max-width: 120px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   padding-top: 40px;
   color: #2e2f42;
-  margin-left: 55px;
+  margin-left: 25px;
 }
 
 .adress-div {
