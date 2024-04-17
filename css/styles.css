@@ -1,6 +1,5 @@
 .container {
-  max-width: 100vw;
-  max-height: 100vh;
+  max-width: 320px;
 }
 
 body {
@@ -44,9 +43,6 @@ li {
 }
 
 .adress-list {
-  max-width: 120px;
-  display: flex;
-  flex-wrap: wrap;
   gap: 24px;
   padding-top: 40px;
   color: #2e2f42;
@@ -193,14 +189,14 @@ li {
 }
 
 .footer-div {
-  /* display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
   row-gap: 55px;
-  column-gap: 25px; */
+  column-gap: 25px;
 }
 
 .adress-bottom {
@@ -210,7 +206,7 @@ li {
 
 .my-logo-bottom {
   padding-top: 55px;
-  padding-left: 150px;
+  padding-left: 120px;
 }
 
 .social-media-link {
@@ -319,7 +315,7 @@ li {
 
   .adress-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: nowrap;
     padding-top: 70px;
     color: #2e2f42;
   }
@@ -431,6 +427,7 @@ li {
     padding-left: 350px;
     display: flex;
     gap: 50px;
+    justify-content: start;
   }
 
   .projects-names {
@@ -530,5 +527,20 @@ li {
 
   .bottom-adress-change:hover {
     color: orangered;
+  }
+
+  .bottom-adress-second {
+    margin-top: 0;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    row-gap: 55px;
+    column-gap: 25px;
   }
 }
