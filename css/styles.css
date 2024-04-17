@@ -1,3 +1,8 @@
+.container {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
 body {
   background-color: #040116;
 }
@@ -185,21 +190,19 @@ li {
   margin-bottom: 55px;
 }
 
-.bottom-adress {
-  display: flex;
-  gap: 25px;
-}
-
 .footer-div {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
-  row-gap: 25px;
+  row-gap: 55px;
+  column-gap: 25px;
 }
 
 .adress-bottom {
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 20px;
   padding-top: 15px;
 }
@@ -457,6 +460,7 @@ li {
 
   .bottom-adress {
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
   }
 
