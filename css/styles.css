@@ -196,6 +196,7 @@ li {
 
 .my-social {
   padding-top: 25px;
+  padding-bottom: 70px;
   display: flex;
   gap: 25px;
   justify-content: center;
