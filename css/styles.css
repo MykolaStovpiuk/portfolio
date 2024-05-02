@@ -1,3 +1,7 @@
+.container {
+  width: 100%;
+}
+
 body {
   background-color: #040116;
 }
@@ -21,6 +25,7 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  font-style: normal;
 }
 
 li {
@@ -28,45 +33,41 @@ li {
 }
 
 .my-logo-top {
-  width: 120px;
-  height: auto;
-  padding-top: 20px;
-  padding-left: 50px;
-}
-
-.header-div {
   display: flex;
+  justify-content: space-between;
 }
 
-.adress-list {
-  padding-top: 15px;
-  color: #2e2f42;
-  margin-left: 25px;
+.second-adress {
+  margin-top: 10px;
 }
 
-.adress-div {
-  margin-left: 20px;
+.my-logo {
+  padding-left: 15px;
 }
+
+.my-adress-top {
+  font-size: 12px;
+  font-family: "Lora", serif;
+}
+
+.my-img {
+  border-radius: 50%;
+}
+
+.my-photo {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
 .about-me {
-  padding-left: 20px;
-  padding-top: 80px;
-}
-
-.about-me-main {
+  color: whitesmoke;
   font-family: "Rosarivo", cursive;
   font-weight: 600;
   font-style: normal;
-  color: white;
 }
 
-.about-me-heading {
-  font-family: "Rosarivo", cursive;
-  font-weight: 600;
-  font-style: normal;
-  color: white;
-}
-
-.about-me-other {
+.my-name {
   font-family: "Marko One", serif;
   font-weight: 700;
   background: -webkit-linear-gradient(blue, darkblue);
@@ -74,454 +75,128 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-.my-image {
-  border-radius: 50%;
-}
-
-.hero-section {
-  padding-top: 80px;
-}
-
-.my-photo {
-  padding-top: 25px;
-  padding-left: 25px;
-}
-
-.my-tech {
-  padding-top: 100px;
+.about-me-text {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 
 .tech-sect-heading {
-  padding-top: 150px;
+  font-family: "Sedan", serif;
   color: whitesmoke;
   text-align: center;
-  font-size: 45px;
-  font-family: "Sedan", serif;
+  padding-top: 80px;
 }
 
 .tech-paragraph {
   color: antiquewhite;
   text-align: center;
-  margin-top: 25px;
-  font-family: "Sedan", serif;
-  font-size: 20px;
-  margin-bottom: 50px;
+  margin-top: 15px;
 }
 
-.hard-skils {
+.hard-skills {
+  margin-top: 25px;
+  max-width: 320px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 50px;
+  gap: 15px 55px;
   justify-content: center;
 }
 
-.hard-skils-section {
-  width: 75px;
-  height: 75px;
+.hard-skills-svg {
+  width: 50px;
+  height: 50px;
 }
 
 .projects-heading {
-  text-align: center;
-  padding-top: 150px;
   color: whitesmoke;
   text-align: center;
-  font-size: 45px;
+  padding-top: 55px;
   font-family: "Sedan", serif;
 }
 
-.text-projects {
-  text-align: center;
-  padding-top: 30px;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 15px;
-  font-family: "Sedan", serif;
+.projects {
+  width: 220px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
 }
 
-.my-projects-list {
-  padding-top: 50px;
+.about-projects {
+  margin-top: 15px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.project-img {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.project-list {
+  margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  row-gap: 15px;
   justify-content: center;
-}
-
-.projects-names {
-  color: black;
-  text-align: center;
-  margin-bottom: 15px;
 }
 
 .first-project {
-  width: 350px;
-  height: auto;
-  background-color: white;
-  border-radius: 10px;
   text-align: center;
-  padding-bottom: 25px;
-  padding-right: 15px;
-  box-shadow: 5px 5px 5px gray;
+  font-family: "Sedan", serif;
 }
 
-.projects-link {
-  color: black;
-  font-family: "Rosarivo", cursive;
-}
-
-.projects-names {
-  font-family: "Rosarivo", cursive;
-}
-
-.first-image {
-  padding-top: 15px;
-  padding-left: 15px;
-}
-
-.second-image {
-  padding-top: 15px;
-  padding-left: 15px;
-  margin-bottom: 55px;
-}
-
-.footer-div {
-  /* display: flex; */
-  flex-wrap: wrap;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  justify-content: center;
-  row-gap: 55px;
-  column-gap: 25px;
-}
-
-.adress-bottom {
-  margin-left: 20px;
-  padding-top: 15px;
+.second-project {
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Sedan", serif;
 }
 
 .my-logo-bottom {
-  padding-top: 55px;
-  padding-left: 110px;
+  padding-top: 50px;
+}
+
+.logo-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-adress {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 155px;
+  row-gap: 15px;
+  justify-content: center;
 }
 
 .social-media-link {
   width: 40px;
   height: 40px;
 }
-
 .social-media-anchor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   background-color: #260952;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media-svg {
+  fill: white;
 }
 
 .our-member-social {
   display: flex;
-  gap: 24px;
-  margin-left: 25px;
+  gap: 25px;
+}
+
+.my-social {
   padding-top: 25px;
-  padding-bottom: 30px;
+  display: flex;
+  gap: 25px;
   justify-content: center;
-}
-
-.social-media-svg {
-  fill: #f4f4fd;
-}
-
-.social-media-anchor:hover {
-  background-color: navy;
-}
-
-.top-adress-change {
-  font-family: "Rosarivo", cursive;
-}
-
-.top-adress-change:hover {
-  color: orangered;
-}
-
-.projects-link:hover {
-  color: darkblue;
-  font-weight: 700;
-}
-.bottom-adress {
-  text-align: center;
-}
-
-.bottom-adress-second {
-  margin-top: 15px;
-}
-
-.bottom-adress-change:hover {
-  color: orangered;
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    background-color: #040116;
-  }
-
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-
-  li {
-    list-style-type: none;
-  }
-
-  .header-div {
-    display: flex;
-  }
-
-  .adress-list {
-    margin-left: 800px;
-    display: flex;
-    gap: 24px;
-    flex-wrap: nowrap;
-    padding-top: 50px;
-    color: #2e2f42;
-  }
-
-  .about-me {
-    width: 300px;
-    height: auto;
-    padding-left: 200px;
-    padding-top: 120px;
-  }
-
-  .about-me-main {
-    font-family: "Rosarivo", cursive;
-    font-weight: 600;
-    font-style: normal;
-    color: white;
-  }
-
-  .about-me-heading {
-    font-family: "Rosarivo", cursive;
-    font-weight: 600;
-    font-style: normal;
-    color: white;
-  }
-
-  .about-me-other {
-    font-family: "Marko One", serif;
-    font-weight: 700;
-    background: -webkit-linear-gradient(blue, darkblue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .my-image {
-    border-radius: 50%;
-  }
-
-  .hero-section {
-    padding-top: 80px;
-    display: flex;
-  }
-
-  .my-photo {
-    margin-left: 280px;
-  }
-
-  .my-tech {
-    padding-top: 150px;
-  }
-
-  .tech-sect-heading {
-    padding-top: 150px;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 45px;
-    font-family: "Sedan", serif;
-  }
-
-  .tech-paragraph {
-    color: antiquewhite;
-    text-align: center;
-    margin-top: 25px;
-    font-family: "Sedan", serif;
-    font-size: 20px;
-  }
-
-  .hard-skils-section {
-    max-width: 750px;
-  }
-
-  .hard-skils {
-    padding-top: 100px;
-    max-width: 1100px;
-    padding-left: 200px;
-    display: flex;
-    gap: 80px 320px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .hard-skils-section {
-    width: 75px;
-    height: 75px;
-  }
-
-  .projects-heading {
-    text-align: center;
-    padding-top: 150px;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 45px;
-    font-family: "Sedan", serif;
-  }
-
-  .text-projects {
-    text-align: center;
-    padding-top: 30px;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 15px;
-    font-family: "Sedan", serif;
-  }
-
-  .my-projects-list {
-    padding-top: 100px;
-    padding-left: 350px;
-    display: flex;
-    gap: 50px;
-    justify-content: start;
-  }
-
-  .projects-names {
-    color: black;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  .first-project {
-    width: 350px;
-    height: auto;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding-bottom: 25px;
-    padding-right: 15px;
-    box-shadow: 5px 5px 5px gray;
-  }
-
-  .projects-link {
-    color: black;
-    font-family: "Rosarivo", cursive;
-  }
-
-  .projects-names {
-    font-family: "Rosarivo", cursive;
-  }
-
-  .first-image {
-    padding-top: 15px;
-    padding-left: 15px;
-  }
-
-  .second-image {
-    padding-top: 15px;
-    padding-left: 15px;
-    margin-bottom: 55px;
-  }
-
-  .bottom-adress {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-  }
-
-  .adress-bottom {
-    margin-left: 800px;
-    padding-top: 15px;
-  }
-
-  .my-logo-bottom {
-    padding-left: 55px;
-  }
-
-  .social-media-link {
-    width: 40px;
-    height: 40px;
-  }
-
-  .social-media-anchor {
-    width: 100%;
-    height: 100%;
-    background-color: #260952;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .our-member-social {
-    display: flex;
-    gap: 24px;
-    margin-left: 25px;
-  }
-
-  .social-media-svg {
-    fill: #f4f4fd;
-  }
-
-  .social-media-anchor:hover {
-    background-color: navy;
-  }
-
-  .top-adress-change {
-    font-family: "Rosarivo", cursive;
-  }
-
-  .top-adress-change:hover {
-    color: orangered;
-  }
-
-  .projects-link:hover {
-    color: darkblue;
-    font-weight: 700;
-  }
-
-  .bottom-adress-change:hover {
-    color: orangered;
-  }
-
-  .bottom-adress-second {
-    margin-top: 0;
-  }
-
-  .footer-div {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    justify-content: center;
-    row-gap: 55px;
-    column-gap: 25px;
-  }
 }
